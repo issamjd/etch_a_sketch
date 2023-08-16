@@ -1,0 +1,14 @@
+
+.gridContainer{
+    /* display: flex;
+    flex-wrap: wrap;
+    max-width: 512px; */
+    display: grid;
+    grid-template-columns: repeat(16, 30px); /* Adjust as needed */
+    justify-content: center;
+    align-items: center;
+}
+.pixel{
+    padding: 15px;
+    border: 1px black solid;
+}
